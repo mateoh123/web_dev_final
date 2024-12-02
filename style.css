@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Ramaraja&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Potta+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Knewave&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Molle&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  border: 0px;
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+a,
+.btn {
+  transition: all 300ms ease;
+}
+
+.navigation_bar_article {
+  display: flex;
+  justify-content: center;
+  background-color: #df00b6;
+  font-family: "Potta One", system-ui;
+}
+
+.navigation_bar_article a {
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 20px;
+  color: white;
+}
+
+.navigation_bar_article a:hover {
+  background-color: #ffffff;
+  color: #df00b6;
+  font-size: 200px;
+  border: 15px solid #df00b6;
+}
+
+h1 {
+  font-family: "Ramaraja", serif;
+  color: white;
+  font-size: 200px;
+  line-height: 5%;
+  text-align: center;
+}
+
+.main_page_p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Markazi Text", serif;
+}
+
+.button_container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.enter_card {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+}
+
+.enter_card:hover {
+  color: #05006e;
+  font-size: 40px;
+}
+
+.enter_card:hover p,
+.enter_card:hover h3 {
+  font-size: 40px;
+  transition: font-size 0.5s ease;
+}
+
+.articles_card {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+  margin: auto;
+}
+
+.articles_card:hover {
+  color: #df00b6;
+  font-size: 40px;
+}
+
+.articles_card:hover p,
+.articles_card:hover h3 {
+  font-size: 40px;
+  transition: font-size 0.5s ease;
+  font-family: "Potta One", system-ui;
+}
+
+.videos_card {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+}
+
+.videos_card:hover {
+  color: #00c023;
+  font-size: 40px;
+}
+
+.videos_card:hover p,
+.videos_card:hover h3 {
+  font-size: 40px;
+  transition: font-size 0.5s ease;
+  font-family: "Knewave", system-ui;
+}
+
+.locations_card {
+  color: rgb(247, 247, 247);
+  text-decoration: none;
+}
+
+.locations_card:hover {
+  color: #f08c00;
+  font-size: 40px;
+}
+
+.locations_card:hover p,
+.locations_card:hover h3 {
+  font-size: 40px;
+  transition: font-size 0.5s ease;
+  font-family: "Molle", cursive;
+}
+
+.card {
+  width: auto;
+  overflow: hidden;
+  border-style: solid;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-content h3 {
+  font-size: 28px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+#outputElement {
+  padding: 2vmin;
+  background-color: rgba(37, 25, 4, 0.39);
+  color: #000000;
+}
+
+#outputParagraph {
+  color: #fff;
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 25px;
+  padding: 5px;
+  font-size: 1.5rem;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  color: #000000;
+  border: 5px solid #000000;
+  background-color: rgba(223, 0, 182, 0.1);
+  height: 100%;
+}
+
+.contentAlbum {
+  font-style: italic;
+  color: #9c1700;
+  margin-bottom: 0.1rem;
+}
+
+.title_aboveV1 {
+  font-size: 50px;
+  line-height: 5%;
+  text-align: center;
+  font-family: "Potta One", system-ui;
+  color: rgba(223, 0, 182);
+}
+
+h3 {
+  margin: 0;
+  text-align: center;
+  font-family: "Hanuman", serif;
+  font-weight: bolder;
+}
+
+h4 {
+  margin-top: 0.5px;
+  font-family: "Hanuman", serif;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h5 {
+  margin: 0;
+  font-family: "Hanuman", serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  cursor: pointer;
+  background-color: rgba(223, 0, 182);
+}
